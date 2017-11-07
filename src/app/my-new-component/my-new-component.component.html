@@ -1,0 +1,24 @@
+<p>
+ This is my new component .
+</p>
+
+
+ <h1>1. Component Example </h1>
+       <p> {{myObject.location}}</p>
+
+       <ul> <li *ngFor="let arr of myArr">{{arr}}</li> </ul>
+
+     <div *ngIf= "isFound; then tmpl1 else templ2"></div>
+
+     <ng-template #tmpl1>True </ng-template>
+     <ng-template #tmpl2>False </ng-template>
+
+    <!---
+    <img src="{{angularLogo}}">
+     <img [src]="angularLogo">
+   -->
+     <img bind-src="angularLogo">
+     <button [disabled] = "buttonStatus== 'enabled' ">My button</button>
+
+<p  [class]="paragraph"  [@myAwesomeAnimation]='state'(click)="animateMe()">I will animate
+</p>

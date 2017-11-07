@@ -1,0 +1,14 @@
+
+.class-binding{
+    color: red;
+    text-decoration: underline;
+}
+
+.text-style{
+  text-align: center;
+  text-style: italic ;
+  font-size: 2em;
+}
+.box-style{
+  border: 2px 4px 5px ;
+}
